@@ -2,8 +2,7 @@
 
 from __future__ import absolute_import
 from ctypes import c_void_p, c_uint32, c_uint64, c_double, c_bool, c_int32
-from .constant import EventType, ButtonState, PointerAxis, KeyState
-from .constant import PointerAxisSource, Switch, SwitchState
+from .constant import *
 from .device import Device
 from .define import TabletTool, TabletPadModeGroup
 
