@@ -993,7 +993,7 @@ class TabletToolEvent(Event):
 				c_void_p,)
 		self._libinput \
 			.libinput_event_tablet_tool_get_wheel_delta_discrete.restype = (
-				c_int)
+				c_int32)
 		self._libinput.libinput_event_tablet_tool_get_x_transformed.argtypes = (
 			c_void_p, c_uint32)
 		self._libinput.libinput_event_tablet_tool_get_x_transformed.restype = (
